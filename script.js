@@ -4,7 +4,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-  let newYear = "Jan 1, 2021 00:00:00",
+  let newYear = "Feb 1, 2022 00:00:00",
     countDown = new Date(newYear).getTime(),
     x = setInterval(function () {
       let now = new Date().getTime(),
@@ -31,7 +31,7 @@
         h1.classList.add("title");
         h1.innerHTML = "Happy New Year";
         year.classList.add("show");
-        year.innerHTML = "2021";
+        year.innerHTML = "2022";
         countdown.style.display = "none";
 
         clearInterval(x);
